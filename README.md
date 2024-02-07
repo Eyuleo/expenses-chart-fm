@@ -26,8 +26,8 @@ mobile preview
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []([https://your-solution-url.com](https://www.frontendmentor.io/solutions/expenses-chart-component-WT9vNnk6IQ))
+- Live Site URL: [](https://expenses-chart-fm-two.vercel.app)
 
 ### Built with
 
