@@ -37,4 +37,4 @@ mobile preview
 
 ### What I Learned
 
-I use chart.js for the first time, I learned how to dynamically fetch json and generate different type of charts.
+I used chart.js for the first time, I learned how to dynamically fetch json and generate different type of charts.
