@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-stack: 'DM Sans', sans-serif;
+    --main-bg-clr: hsl(27, 66%, 92%);
+    --soft-red: hsl(10, 79%, 65%);
+    --cream: hsl(38, 100%, 98%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --mid-brown: hsl(28, 10%, 53%);
+    --hr-border: hsla(47, 5%, 66%, 0.24);
+}
+
+body {
+    font-family: var(--font-stack);
+    background-color: var(--main-bg-clr);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid var(--hr-border);
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.account-balance {
+    background-color: var(--soft-red);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance p,
+h1 {
+    color: var(--cream);
+}
+
+.balance h1 {
+    font-weight: 700;
+}
+
+.spending-wrapper {
+    background-color: var(--cream);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+}
+
+.spending-wrapper-title {
+    color: var(--dark-brown);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.total p {
+    color: var(--mid-brown);
+}
+
+.total h2 {
+    color: var(--dark-brown);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.change-perecentage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-perecentage h3 {
+    color: var(--dark-brown);
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.change-perecentage p {
+    color: var(--mid-brown);
+}
+
+.bargraph-wrapper {
+    margin-bottom: 1rem;
+}
